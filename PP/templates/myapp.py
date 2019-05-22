@@ -416,5 +416,5 @@ def chdic(data,word):
   return arr    
 
 if __name__ == "__main__":
-	app.run( debug =True,host='0.0.0.0')
+	app.run( debug =True,host='http://35.198.215.123/POPO/PP/templates/')
 	
