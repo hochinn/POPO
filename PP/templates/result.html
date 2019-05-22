@@ -43,16 +43,15 @@
         <h1 class="title">
             <h1>RESULT</h1>
             <div class="s132">
-                <form action="http://35.198.215.123/POPO/PP/templates/Rank" method="POST">
+                <form action="http://35.198.215.123/POPO/PP/templates/Rank.html" method="POST">
                     <input id="search" type="hidden" name="Search" value="{{word}}" />
                     <center><input class="Search" size="100" type="button" value="Rank"
-                        onClick="this.form.action='http://35.240.153.24/Rank'; submit()" formmethod="post" style="width: 10%"></center>
+                        onClick="this.form.action='http://35.198.215.123/POPO/PP/templates/Rank.html'; submit()" formmethod="post" style="width: 10%"></center>
                 </form>
             </div>
         </h1>
 
         <div class="pricing_table_wdg" ><center>
-
             <ul style="background:black;width: 24.1%">
                 <li style="background: pink">INVERTED INDEX</li>
                 <li>Count : {{ resultin1 }}</li>

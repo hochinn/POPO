@@ -416,5 +416,5 @@ def chdic(data,word):
   return arr    
 
 if __name__ == "__main__":
-	app.run(debug =True)
+	app.run(debug =True , host ="35.198.215.123", port =8080)
 	
