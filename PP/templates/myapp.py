@@ -52,7 +52,7 @@ word_tf = json.load(j)
 
 				
 
-@app.route('/')
+@app.route('/index.html')
 def index ():
 
 	  
