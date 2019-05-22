@@ -52,7 +52,7 @@ word_tf = json.load(j)
 
 				
 
-@app.route('/index.html')
+@app.route('/')
 def index ():
 
 	  
@@ -416,5 +416,5 @@ def chdic(data,word):
   return arr    
 
 if __name__ == "__main__":
-	app.run( debug =True)
+	app.run( debug =True,host='0.0.0.0')
 	
