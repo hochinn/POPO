@@ -416,5 +416,5 @@ def chdic(data,word):
   return arr    
 
 if __name__ == "__main__":
-	app.run( host ='http://35.198.215.123',debug =True)
+	app.run( debug =True)
 	
