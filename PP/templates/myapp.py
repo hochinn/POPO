@@ -7,6 +7,7 @@ import pandas as pd
 import io
 import re
 import json
+import sqlite3
 import fnmatch
 import tf
 from time import time as sec
